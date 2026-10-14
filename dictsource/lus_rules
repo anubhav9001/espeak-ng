@@ -88,6 +88,10 @@
 .group s
         s       s
 
+.group ṭ
+        ṭh      t_h *
+        ṭ       t *
+
 .group t
         thl     t_h l
         tlh     t_h l
