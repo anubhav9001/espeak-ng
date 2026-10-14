@@ -3,6 +3,9 @@
 // Covers basic vowels and consonants plus the p/ph, t/th, and k/kh stop contrasts.
 // Complex digraphs, tone, and exceptions will be added in subsequent passes.
 
+.group â
+        âw     O:
+
 .group a
         aw      O
         a       a
