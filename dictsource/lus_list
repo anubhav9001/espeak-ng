@@ -1,0 +1,23 @@
+// Basic Mizo cardinal numbers.
+// The native forms below are attested in Mizo number lists; zero is omitted
+// because I could not verify a standard Mizo spoken form for it.
+_1	pakhat
+_2	pahnih
+_3	pathum
+_4	pali
+_5	panga
+_6	paruk
+_7	pasarih
+_8	pariat
+_9	pakua
+
+// Tens
+_1X	sawm
+_2X	sawmhnih
+_3X	sawmthum
+_4X	sawmli
+_5X	sawmnga
+_6X	sawmruk
+_7X	sawmsarih
+_8X	sawmriat
+_9X	sawmkua
