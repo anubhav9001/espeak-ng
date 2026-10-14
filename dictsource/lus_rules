@@ -2,7 +2,9 @@
 // Initial Mizo spelling-to-phoneme rules.
 // Covers common Mizo spellings and stop contrasts. Aspirated sonorants, lateral affricates, and some diphthongs use sequence approximations.
 // ch uses a dedicated /t͡s/ phone; chh, thl, and tlh remain approximations.
-// Complex digraphs, tone, and exceptions will be added in subsequent passes.
+// Circumflex spellings below encode vowel length only; standard spelling does not reliably identify all lexical tones.
+// A circumflex can mark a high or falling tone on a long rime, so tone contours need lexical tone data rather than a blanket rule.
+// Word-specific tone and pronunciation exceptions remain future work.
 
 .group â
         âw     O:
