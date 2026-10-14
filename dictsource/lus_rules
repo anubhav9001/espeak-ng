@@ -1,6 +1,6 @@
 // This file is UTF-8 encoded.
 // Initial Mizo spelling-to-phoneme rules.
-// Covers common Mizo spellings and stop contrasts. Aspirated sonorants and lateral affricates use sequence approximations.
+// Covers common Mizo spellings and stop contrasts. Aspirated sonorants, lateral affricates, and some diphthongs use sequence approximations.
 // ch uses a dedicated /t͡s/ phone; chh, thl, and tlh remain approximations.
 // Complex digraphs, tone, and exceptions will be added in subsequent passes.
 
@@ -22,6 +22,8 @@
 
 .group a
         aw      O
+        ai      aI
+        au      aU
         a       a
 
 .group b
@@ -35,6 +37,8 @@
         d       d
 
 .group e
+        ei      eI
+        eu      e u
         e       e
 
 .group f
@@ -50,6 +54,8 @@
         h       h
 
 .group i
+        ia      i a
+        iu      i u
         i       i
 
 .group k
@@ -68,6 +74,8 @@
         n       n
 
 .group o
+        oi      OI
+        ou      o u
         o       o
 
 .group p
@@ -88,6 +96,8 @@
         t       t
 
 .group u
+        ua      u a
+        ui      u i
         u       u
 
 .group v
