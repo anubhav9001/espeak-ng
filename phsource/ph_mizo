@@ -100,3 +100,32 @@ phoneme ts
   Vowelin f1=0 f2=2300 200 400 f3=-100 80
   WAV(ustop/ts_pzd)
 endphoneme
+
+ // Mizo diphthongs with existing eSpeak transition recordings.
+phoneme aI
+  vwl starttype #a endtype #i
+  ipa aɪ̯
+  length 240
+  FMT(vdiph/ai_2)
+endphoneme
+
+phoneme eI
+  vwl starttype #e endtype #i
+  ipa eɪ̯
+  length 210
+  FMT(vdiph/eei)
+endphoneme
+
+phoneme OI
+  vwl starttype #o endtype #i
+  ipa oɪ̯
+  length 230
+  FMT(vdiph/ooi)
+endphoneme
+
+phoneme aU
+  vwl starttype #a endtype #u
+  ipa aʊ̯
+  length 230
+  FMT(vdiph/au)
+endphoneme
