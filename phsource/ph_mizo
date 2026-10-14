@@ -82,3 +82,11 @@ phoneme k_h
   Vowelout f1=0 f2=2300 300 400 f3=-150 80 rms=20
   WAV(ustop/k_asp)
 endphoneme
+
+// The Mizo spelling aw represents the open-mid back vowel /ɔ/.
+phoneme O
+  vwl starttype #o endtype #o
+  ipa ɔ
+  length 180
+  FMT(vowel/oo_4)
+endphoneme
