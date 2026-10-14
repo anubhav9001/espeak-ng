@@ -1772,6 +1772,9 @@ include ph_luxembourgish
 phonemetable lt base1
 include ph_lithuanian
 
+phonemetable lus base1
+include ph_mizo
+
 phonemetable lv base1
 include ph_latvian
 
