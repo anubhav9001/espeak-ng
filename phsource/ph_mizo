@@ -90,3 +90,13 @@ phoneme O
   length 180
   FMT(vowel/oo_4)
 endphoneme
+
+// Mizo ch is the voiceless alveolar affricate /t͡s/.
+// Reuse eSpeak's alveolar sibilant affricate sample sequence.
+phoneme ts
+  vls alv sib afr
+  ipa t͡s
+  lengthmod 2
+  Vowelin f1=0 f2=2300 200 400 f3=-100 80
+  WAV(ustop/ts_pzd)
+endphoneme
