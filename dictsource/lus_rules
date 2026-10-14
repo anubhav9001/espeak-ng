@@ -1,6 +1,7 @@
 // This file is UTF-8 encoded.
 // Initial Mizo spelling-to-phoneme rules.
 // Covers basic vowels and consonants plus the p/ph, t/th, and k/kh stop contrasts.
+// ch uses a dedicated /t͡s/ phone; tl and tlh are stop-plus-l approximations.
 // Complex digraphs, tone, and exceptions will be added in subsequent passes.
 
 .group â
@@ -25,6 +26,9 @@
 
 .group b
         b       b
+
+.group c
+        ch      ts
 
 .group d
         d       d
@@ -74,6 +78,8 @@
         s       s
 
 .group t
+        tlh     t_h l
+        tl      t l
         th      t_h
         t       t
 
