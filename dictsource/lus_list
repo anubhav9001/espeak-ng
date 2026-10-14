@@ -21,3 +21,25 @@ _6X	sawmruk
 _7X	sawmsarih
 _8X	sawmriat
 _9X	sawmkua
+
+// Exact hundreds: Mizo places the multiplier after za.
+_1C	za
+_2C	zahnih
+_3C	zathum
+_4C	zali
+_5C	zanga
+_6C	zaruk
+_7C	zasarih
+_8C	zariat
+_9C	zakua
+
+// Exact thousands: Mizo places the multiplier after sang.
+_1M1	sang
+_2M1	sanghnih
+_3M1	sangthum
+_4M1	sangli
+_5M1	sangnga
+_6M1	sangruk
+_7M1	sangsarih
+_8M1	sangriat
+_9M1	sangkua
