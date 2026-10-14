@@ -4,6 +4,7 @@
 // Complex digraphs, tone, and exceptions will be added in subsequent passes.
 
 .group a
+        aw      O
         a       a
 
 .group b
