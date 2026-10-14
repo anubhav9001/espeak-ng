@@ -1,0 +1,15 @@
+// This file is UTF-8 encoded.
+// Initial Mizo spelling-to-phoneme rules for the p/ph, t/th, and k/kh contrasts.
+// Other Mizo spelling rules will be added in subsequent passes.
+
+.group p
+        ph      p_h
+        p       p
+
+.group t
+        th      t_h
+        t       t
+
+.group k
+        kh      k_h
+        k       k
