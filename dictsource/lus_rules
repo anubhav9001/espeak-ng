@@ -36,6 +36,11 @@
         f       f
 
 .group h
+        hng     h N
+        hl      h l
+        hm      h m
+        hn      h n
+        hr      h R2
         h       h
 
 .group i
