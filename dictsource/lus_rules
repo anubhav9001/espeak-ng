@@ -1,15 +1,65 @@
 // This file is UTF-8 encoded.
-// Initial Mizo spelling-to-phoneme rules for the p/ph, t/th, and k/kh contrasts.
-// Other Mizo spelling rules will be added in subsequent passes.
+// Initial Mizo spelling-to-phoneme rules.
+// Covers basic vowels and consonants plus the p/ph, t/th, and k/kh stop contrasts.
+// Complex digraphs, tone, and exceptions will be added in subsequent passes.
+
+.group a
+        a       a
+
+.group b
+        b       b
+
+.group d
+        d       d
+
+.group e
+        e       e
+
+.group f
+        f       f
+
+.group h
+        h       h
+
+.group i
+        i       i
+
+.group k
+        kh      k_h
+        k       k
+
+.group l
+        l       l
+
+.group m
+        m       m
+
+.group n
+        ng      N
+        n       n
+
+.group o
+        o       o
 
 .group p
         ph      p_h
         p       p
 
+.group r
+        r       R2
+
+.group s
+        s       s
+
 .group t
         th      t_h
         t       t
 
-.group k
-        kh      k_h
-        k       k
+.group u
+        u       u
+
+.group v
+        v       v
+
+.group z
+        z       z
