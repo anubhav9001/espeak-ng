@@ -43,3 +43,26 @@ _6M1	sangruk
 _7M1	sangsarih
 _8M1	sangriat
 _9M1	sangkua
+
+// Letter names shared by the Northern and Southern variants.
+// Dialect-specific names for g, ng, h, u, and z are left to a voice variant.
+_a	a
+_aw	O
+_b	bi
+_ch	tsO
+_d	di
+_e	e
+_f	efi
+_i	i
+_j	je
+_k	ke
+_l	el
+_m	em
+_n	en
+_o	o
+_p	pi
+_r	aR2
+_s	esi
+_t	ti
+_ṭ	t*i
+_v	vi
