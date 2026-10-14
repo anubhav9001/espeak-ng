@@ -1,6 +1,5 @@
 // Basic Mizo cardinal numbers.
-// The native forms below are attested in Mizo number lists; zero is omitted
-// because I could not verify a standard Mizo spoken form for it.
+// Native cardinal forms are used below; zero uses the common borrowing zêro.
 _1	pakhat
 _2	pahnih
 _3	pathum
@@ -11,6 +10,7 @@ _7	pasarih
 _8	pariat
 _9	pakua
 
+_0\tzeR2o\n
 // Tens
 _1X	sawm
 _2X	sawmhnih
