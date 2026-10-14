@@ -5,3 +5,80 @@
 //
 // This file contains Mizo-specific phonemes.
 // Common phonemes are inherited through the lus phoneme table.
+
+ 
+// Mizo contrasts voiceless unaspirated and aspirated stops.
+// The plain spellings use p/t/k; ph/th/kh will map to p_h/t_h/k_h
+// in the spelling-to-phoneme rules.
+
+phoneme p
+  vls blb stp
+  ipa p
+  voicingswitch b
+  lengthmod 2
+  Vowelin  f1=0  f2=1000 -50 -100  f3=-200 80 amp=11
+  Vowelout f1=0  f2=1000 -500 -350  f3=-300 80 rms=22
+  IF nextPh(isPause2) THEN
+    WAV(ustop/p_)
+  ENDIF
+  WAV(ustop/p_unasp)
+endphoneme
+
+phoneme p_h
+  vls blb stp
+  ipa pʰ
+  voicingswitch b
+  lengthmod 2
+  Vowelin  f1=0  f2=1000 -50 -100  f3=-200 80
+  Vowelout f1=0  f2=1000 -500 -350  f3=-300 80 rms=30
+  WAV(ustop/p_asp)
+endphoneme
+
+phoneme t
+  vls alv stp
+  ipa t
+  voicingswitch d
+  lengthmod 2
+  Vowelin f1=0 f2=1700 -300 300 f3=-100 80
+  Vowelout f1=0 f2=1700 -300 250 f3=-100 80 rms=20
+  IF nextPh(isPause2) THEN
+    WAV(ustop/t_)
+  ENDIF
+  WAV(ustop/t_unasp)
+endphoneme
+
+phoneme t_h
+  vls alv stp
+  ipa tʰ
+  voicingswitch d
+  lengthmod 2
+  Vowelin f1=0 f2=1700 -300 300 f3=-100 80
+  Vowelout f1=0 f2=1700 -300 250 f3=-100 80 rms=20
+  WAV(ustop/t)
+endphoneme
+
+phoneme k
+  vls vel stp
+  ipa k
+  voicingswitch g
+  lengthmod 2
+  Vowelin f1=0 f2=2300 200 300 f3=-200 80
+  Vowelout f1=0 f2=2300 300 400 f3=-200 80 rms=20
+  IF KlattSynth THEN
+    Vowelout f1=0 f2=2300 200 300 f3=-200 80 rms=20
+  ENDIF
+  IF nextPh(isPause2) THEN
+    WAV(ustop/k_)
+  ENDIF
+  WAV(ustop/k_unasp)
+endphoneme
+
+phoneme k_h
+  vls vel stp
+  ipa kʰ
+  voicingswitch g
+  lengthmod 2
+  Vowelin f1=0 f2=2300 200 300 f3=-150 80
+  Vowelout f1=0 f2=2300 300 400 f3=-150 80 rms=20
+  WAV(ustop/k_asp)
+endphoneme
